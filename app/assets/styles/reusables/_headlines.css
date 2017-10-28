@@ -1,0 +1,15 @@
+.headlines{
+  &--title{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: $blue;
+    font-size: 2.2rem;
+  }
+  &--subtitle{
+    text-align: center;
+    color: #FFF;
+    font-size: 1.2rem;
+
+  }
+}

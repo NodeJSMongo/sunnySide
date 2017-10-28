@@ -1,0 +1,64 @@
+.column{
+
+      &-0{
+        float: right;
+        box-sizing: border-box;
+      }
+      &-2{
+        float: right;
+        width: 16.66%;
+      }
+      &-3{
+        float:right;
+        width:25%;
+      }
+      &-4{
+        float:right;
+        width: 33.33%;
+      }
+
+      &-6{
+        float: right;
+        width: 50%;
+        box-sizing: border-box;
+      }
+
+      &-8{
+        float:right;
+        width: 66.67%;
+      }
+      &-10{
+        float:right;
+        width: 83.33%;
+      }
+
+
+      &-0l{
+        float: left;
+      }
+
+      &-2l{
+        float: left;
+        width: 16.66%;
+      }
+      &-4l{
+        float: left;
+        width: 33.33%;
+        box-sizing: border-box;
+      }
+
+      &-6l{
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+      }
+
+      &-8l{
+        float:left;
+        width: 66.67%;
+      }
+      &-10l{
+        float:left;
+        width: 83.33%;
+      }
+}

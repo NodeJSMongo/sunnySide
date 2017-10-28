@@ -1,0 +1,4 @@
+.footer-section{
+  @mixin clearfix;
+  background-color: $blue;
+}

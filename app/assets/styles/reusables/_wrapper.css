@@ -1,0 +1,9 @@
+.wrapper{
+  padding-left: 30px;
+  padding-right: 30px;
+
+  &--inside{
+    margin-left: -40px;
+    margin-right: 0;
+  }
+}
