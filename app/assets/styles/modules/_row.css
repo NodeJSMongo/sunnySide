@@ -112,4 +112,17 @@
       display: flex;
     }
   }
+
+  &__quote{
+    margin-top: 15px;
+    padding: 1px 0 10px 20px ;
+    background-color: rgba($bgcolor, .5);
+    text-align: left;
+    
+    &-title{
+          text-align: center;
+          color: $mainBlue;
+          text-decoration: underline;
+    }
+  }
 }

@@ -1,4 +1,5 @@
 @import "normalize.css";
+@import "global/_colors";
 @import "base/_variables";
 @import "base/_mixins";
 @import "base/_global";
@@ -17,5 +18,6 @@
 @import "modules/_site-header";
 @import "modules/_primary-nav";
 @import "modules/_reveal-item";
-@import"modules/_modal";
+@import "modules/_modal";
 @import "modules/_social-icons";
+@import "base/_hideText";

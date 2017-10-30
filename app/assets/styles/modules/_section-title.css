@@ -5,6 +5,7 @@
 
   @mixin atSmall{
     font-size: 3.75rem;
+    margin-top: 10px;
   }
 
 &--blue{

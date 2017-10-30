@@ -596,7 +596,7 @@ a{
 @media(min-width: 530px){
 
 .wrapper--b-margin{
-    margin-bottom: 3.875rem;
+    margin-bottom: 2.875rem;
   }
   }
 
@@ -633,7 +633,7 @@ a{
 @media(min-width: 800px){
 
 .page-section{
-    padding: 4.5rem 0
+    padding: 1.5rem 0
 }
   }
 
@@ -719,15 +719,16 @@ a{
   }
 
 .headline--b-margin-small{
-    margin-bottom: .5em;
+    margin-bottom: .3em;
+    margin-top: 0px;
   }
 
 .headline--b-margin-large{
-    margin-bottom: 1.6em;
+    margin-bottom: 1em;
   }
 
 .headline--no-t-margin{
-    margin-top: 0;
+    margin-top: 0px;
   }
 
 .row::after{
@@ -860,6 +861,19 @@ a{
       display: flex;
     }
 
+.row__quote{
+    margin-top: 15px;
+    padding: 1px 0 10px 20px ;
+    background-color: rgba(140,179,217, .5);
+    text-align: left;
+  }
+
+.row__quote-title{
+          text-align: center;
+          color: #2f5572;
+          text-decoration: underline;
+    }
+
 .generic-content-container p{
       font-weight: 300;
       line-height: 1.65;
@@ -887,7 +901,8 @@ a{
 @media(min-width: 530px){
 
 .section-title{
-    font-size: 3.75rem
+    font-size: 3.75rem;
+    margin-top: 10px
 }
   }
 
@@ -982,13 +997,12 @@ a{
 .testimonial__photo{
     border-radius: 80px;
     overflow: hidden;
-    width:160px;
+    width:130px;
     height: 160px;
     margin: 0 auto 0 auto;
     position: relative;
-    top:-80px;
+    top:-70px;
     margin-bottom: -80px;
-    border:6px solid rgba(255,255,255, .8);
   }
 
 .testimonial__title{
@@ -1011,89 +1025,113 @@ a{
 instead eidt template gulp/tempalte/sprite*/
 
 .icon{
-        background-image: url('../../assets/images/sprites/sprite-94d4dcd1.svg');
+        background-image: url('../../assets/images/sprites/sprite-87370507.svg');
     }
 
 .no-svg .icon{
-        background-image: url('../../assets/images/sprites/sprite-94d4dcd1.png');
+        background-image: url('../../assets/images/sprites/sprite-87370507.png');
     }
 
 .icon--clear-view-escapes{
   width:144.4px;
   height:61.53px;
-  background-position:99.85549132947975% 0
+  background-position:86.00985221674877% 0
 }
 
 .icon--comment{
   width:66px;
   height:66px;
-  background-position:97.91139240506328% 22.901437371663246%
+  background-position:60.57142857142857% 74.58640776699029%
 }
 
 .icon--facebook{
   width:23.23px;
   height:44.01px;
-  background-position:99.675444966433% 12.08864614236036%
+  background-position:93.08698944995334% 28.691409523454812%
 }
 
 .icon--fire{
   width:58px;
   height:66px;
-  background-position:86.37499999999999% 36.45379876796714%
+  background-position:48.78048780487805% 74.58640776699029%
 }
 
 .icon--globe{
   width:66px;
   height:66px;
-  background-position:87.46835443037973% 22.901437371663246%
+  background-position:73.14285714285714% 74.58640776699029%
 }
 
 .icon--instagram{
   width:44.01px;
   height:44.01px;
-  background-position:84.52728634994418% 60.8125896383033%
-}
-
-.icon--javascript{
-  width:552.8px;
-  height:552.8px;
-  background-position:0 0
+  background-position:96.6233386350756% 20.495726177396225%
 }
 
 .icon--mail{
   width:66px;
   height:50px;
-  background-position:87.46835443037973% 12.232604373757455%
+  background-position:73.16571428571429% 60.5517890772128%
+}
+
+.icon--mongodb{
+  width:130px;
+  height:130px;
+  background-position:28.199566160520607% 85.17073170731707%
+}
+
+.icon--nodejs{
+  width:130px;
+  height:130px;
+  background-position:0 85.17073170731707%
+}
+
+.icon--post{
+  width:384.12px;
+  height:384.12px;
+  background-position:0 0
 }
 
 .icon--rain{
   width:66px;
   height:66px;
-  background-position:96.64556962025316% 36.45379876796714%
+  background-position:85.71428571428571% 74.58640776699029%
+}
+
+.icon--react{
+  width:130px;
+  height:130px;
+  background-position:83.3232104121475% 42.467849223946786%
 }
 
 .icon--star{
   width:66px;
   height:66px;
-  background-position:87.46835443037973% 50.006160164271044%
+  background-position:0 99.82912621359223%
 }
 
 .icon--twitter{
   width:53.78px;
   height:44.06px;
-  background-position:96.05414299462915% 12.089833772153888%
+  background-position:98.38055172927292% 12.291876187283494%
 }
 
 .icon--wifi{
   width:62px;
   height:66px;
-  background-position:97.29559748427671% 50.006160164271044%
+  background-position:99.90926275992439% 0
+}
+
+.icon--wordpress{
+  width:130px;
+  height:130px;
+  background-position:83.3232104121475% 13.643015521064301%
 }
 
 .icon--youtube{
   width:36.75px;
   height:44px;
-  background-position:90.25482041587901% 60.811394891944985%
+  background-position:99.5489400090212% 28.690875232774673%
 }
 
 .site-footer{
@@ -1119,22 +1157,22 @@ instead eidt template gulp/tempalte/sprite*/
   }
 
 .site-header{
-padding:10px 0;
+padding: 10px 0;
 position: absolute;
 width: 100%;
 z-index: 2;
--webkit-transition: background-color .3s lease-out;
-transition: background-color .3s lease-out;
+-webkit-transition: background-color .3s ease-out;
+transition: background-color .3s ease-out;
 }
 
 .site-header--is-expanded{
-  background-color: rgba(47,85,114, .55);
+  background-color: rgba(47,85,114, .75);
 }
 
 @media(min-width: 800px){
 
 .site-header{
-  background-color: rgba(47,85,114, .3);
+  background-color: rgba(47,85,114, .6);
   position: fixed
 }
 
@@ -1469,3 +1507,19 @@ padding-top: 10px;
       -webkit-transform: translate(-50% ,-50%);
               transform: translate(-50% ,-50%);
     }
+
+.hideText{
+  margin-top: auto;
+  @mixins atSmall{
+    margin-top: -1.5rem;
+  }
+}
+
+.hideText__show-more, .hideText__show-less{
+    cursor: pointer;
+    padding: 0 .5em;
+    color: #4250f4;
+    font-size: 1em;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }

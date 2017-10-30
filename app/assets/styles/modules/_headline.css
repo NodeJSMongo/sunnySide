@@ -31,13 +31,14 @@
     font-weight: 400;
   }
   &--b-margin-small{
-    margin-bottom: .5em;
+    margin-bottom: .3em;
+    margin-top: 0px;
   }
   &--b-margin-large{
-    margin-bottom: 1.6em;
+    margin-bottom: 1em;
   }
 
   &--no-t-margin{
-    margin-top: 0;
+    margin-top: 0px;
   }
 }

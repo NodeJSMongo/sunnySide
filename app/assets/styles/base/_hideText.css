@@ -1,0 +1,14 @@
+.hideText{
+  margin-top: auto;
+  @mixins atSmall{
+    margin-top: -1.5rem;
+  }
+
+  &__show-more , &__show-less{
+    cursor: pointer;
+    padding: 0 .5em;
+    color: $deepBlue;
+    font-size: 1em;
+    transform: scale(1.5);
+  }
+}
