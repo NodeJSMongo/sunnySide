@@ -774,6 +774,10 @@ a{
     .row__b-margin-until-medium{
       margin-bottom: 0;
     }
+    .row__medium-3{
+      float:left;
+      width: 24%;
+    }
     .row__medium-4{
       float:left;
       width: 33.33%;
@@ -795,6 +799,11 @@ a{
 
     .row__medium-8--smaller{
       width:63%;
+    }
+
+    .row__medium-9{
+      float:left;
+      width: 76%;
     }
   }
 
@@ -1523,3 +1532,47 @@ padding-top: 10px;
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
   }
+
+.card{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+    -ms-flex-direction: row;
+        flex-direction: row;
+background-color: rgb(215,218,224);
+}
+
+.menuList{
+      background-color: rgb(52,54,58);
+      margin-left: auto;
+      margin-right:auto;
+      border-radius: 5px;
+      color:#fff;
+      text-align: center;
+      padding-top: .5rem;
+      max-width:85%;
+      padding-bottom: .5rem;
+      list-style:none;
+      margin-top: .5rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+}
+
+.details{
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.text{
+  color: #4250f4;
+  font-size: 1.25rem;
+  font-family: fantasy;
+  font-weight: 200;
+}

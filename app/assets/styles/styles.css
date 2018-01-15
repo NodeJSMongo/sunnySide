@@ -21,3 +21,6 @@
 @import "modules/_modal";
 @import "modules/_social-icons";
 @import "base/_hideText";
+@import "react/_app";
+@import "react/_menuList";
+@import "react/_details";

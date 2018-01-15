@@ -1,0 +1,11 @@
+.details{
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.text{
+  color: $deepBlue;
+  font-size: 1.25rem;
+  font-family: fantasy;
+  font-weight: 200;
+}
