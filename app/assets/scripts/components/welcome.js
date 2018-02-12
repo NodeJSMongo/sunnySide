@@ -4,8 +4,8 @@ class Welcome extends Component{
   render(){
     return (
       <div>
-        <h3 class="section-title page-section">Welcome</h3>
-        <p class="text">
+        <h3 className="section-title page-section">Welcome</h3>
+        <p className="text">
           This section is build in react and redux. This might be an
           opportunity for you to see an example, how react and redux can
           be a part of an existing app.

@@ -60,12 +60,12 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 32);
+/******/ 	return __webpack_require__(__webpack_require__.s = 31);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 13:
+/***/ 14:
 /***/ (function(module, exports) {
 
 /*!
@@ -829,7 +829,7 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -11045,9 +11045,9 @@ jQuery.nodeName = nodeName;
 // https://github.com/jrburke/requirejs/wiki/Updating-existing-libraries#wiki-anon
 
 if ( true ) {
-	!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function() {
+	!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function() {
 		return jQuery;
-	}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+	}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
 }
 
@@ -11090,35 +11090,39 @@ return jQuery;
 
 /***/ }),
 
-/***/ 32:
+/***/ 31:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _MobileMenu = __webpack_require__(33);
+var _MobileMenu = __webpack_require__(32);
 
 var _MobileMenu2 = _interopRequireDefault(_MobileMenu);
 
-var _RevealOnScroll = __webpack_require__(34);
+var _RevealOnScroll = __webpack_require__(33);
 
 var _RevealOnScroll2 = _interopRequireDefault(_RevealOnScroll);
 
-var _jquery = __webpack_require__(3);
+var _jquery = __webpack_require__(2);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
-var _StickyHeader = __webpack_require__(35);
+var _StickyHeader = __webpack_require__(34);
 
 var _StickyHeader2 = _interopRequireDefault(_StickyHeader);
 
-var _Modal = __webpack_require__(37);
+var _Modal = __webpack_require__(36);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _ShowMore = __webpack_require__(38);
+var _ShowMore = __webpack_require__(37);
 
 var _ShowMore2 = _interopRequireDefault(_ShowMore);
+
+var _Slider = __webpack_require__(38);
+
+var _Slider2 = _interopRequireDefault(_Slider);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11129,10 +11133,11 @@ new _RevealOnScroll2.default((0, _jquery2.default)(".testimonial"), "60%");
 var stickyHeader = new _StickyHeader2.default();
 var modal = new _Modal2.default();
 var showMore = new _ShowMore2.default();
+(0, _Slider2.default)();
 
 /***/ }),
 
-/***/ 33:
+/***/ 32:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11144,7 +11149,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _jquery = __webpack_require__(3);
+var _jquery = __webpack_require__(2);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
@@ -11183,7 +11188,7 @@ exports.default = MobileMenu;
 
 /***/ }),
 
-/***/ 34:
+/***/ 33:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11195,11 +11200,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _jquery = __webpack_require__(3);
+var _jquery = __webpack_require__(2);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
-var _noframework = __webpack_require__(13);
+var _noframework = __webpack_require__(14);
 
 var _noframework2 = _interopRequireDefault(_noframework);
 
@@ -11246,7 +11251,7 @@ exports.default = RevealOnScroll;
 
 /***/ }),
 
-/***/ 35:
+/***/ 34:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11258,15 +11263,15 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _jquery = __webpack_require__(3);
+var _jquery = __webpack_require__(2);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
-var _noframework = __webpack_require__(13);
+var _noframework = __webpack_require__(14);
 
 var _noframework2 = _interopRequireDefault(_noframework);
 
-var _jquerySmoothScroll = __webpack_require__(36);
+var _jquerySmoothScroll = __webpack_require__(35);
 
 var _jquerySmoothScroll2 = _interopRequireDefault(_jquerySmoothScroll);
 
@@ -11355,7 +11360,7 @@ exports.default = StickyHeader;
 
 /***/ }),
 
-/***/ 36:
+/***/ 35:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -11368,7 +11373,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 (function(factory) {
   if (true) {
     // AMD. Register as an anonymous module.
-    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(3)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__(2)], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
 				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
 				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
 				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -11723,7 +11728,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 /***/ }),
 
-/***/ 37:
+/***/ 36:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11735,7 +11740,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _jquery = __webpack_require__(3);
+var _jquery = __webpack_require__(2);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
@@ -11791,7 +11796,7 @@ exports.default = Modal;
 
 /***/ }),
 
-/***/ 38:
+/***/ 37:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11803,7 +11808,7 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _jquery = __webpack_require__(3);
+var _jquery = __webpack_require__(2);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
@@ -11851,6 +11856,85 @@ var ShowMore = function () {
 }();
 
 exports.default = ShowMore;
+
+/***/ }),
+
+/***/ 38:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = Slider;
+
+var _jquery = __webpack_require__(2);
+
+var _jquery2 = _interopRequireDefault(_jquery);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Slider() {
+  (0, _jquery2.default)(document).ready(function () {
+    var flag = 1;
+    (0, _jquery2.default)(".next").click(function () {
+      if (flag == 0) {
+        (0, _jquery2.default)(".album_pic-1").css("z-index", "1");
+        (0, _jquery2.default)(".album_pic-2").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-3").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-4").css("z-index", "0");
+        flag = 1;
+      } else if (flag == 1) {
+        (0, _jquery2.default)(".album_pic-2").css("z-index", "1");
+        (0, _jquery2.default)(".album_pic-3").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-1").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-4").css("z-index", "0");
+        flag = 2;
+      } else if (flag == 2) {
+        (0, _jquery2.default)(".album_pic-3").css("z-index", "1");
+        (0, _jquery2.default)(".album_pic-1").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-2").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-4").css("z-index", "0");
+        flag = 3;
+      } else if (flag == 3) {
+        (0, _jquery2.default)(".album_pic-4").css("z-index", "1");
+        (0, _jquery2.default)(".album_pic-1").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-2").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-3").css("z-index", "0");
+        flag = 0;
+      }
+    });
+    (0, _jquery2.default)(".prev").click(function () {
+      if (flag == 0) {
+        (0, _jquery2.default)(".album_pic-4").css("z-index", "1");
+        (0, _jquery2.default)(".album_pic-2").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-3").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-1").css("z-index", "0");
+        flag = 3;
+      } else if (flag == 1) {
+        (0, _jquery2.default)(".album_pic-2").css("z-index", "1");
+        (0, _jquery2.default)(".album_pic-4").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-3").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-1").css("z-index", "0");
+        flag = 2;
+      } else if (flag == 2) {
+        (0, _jquery2.default)(".album_pic-1").css("z-index", "1");
+        (0, _jquery2.default)(".album_pic-2").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-3").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-4").css("z-index", "0");
+        flag = 3;
+      } else if (flag == 3) {
+        (0, _jquery2.default)(".album_pic-3").css("z-index", "1");
+        (0, _jquery2.default)(".album_pic-2").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-4").css("z-index", "0");
+        (0, _jquery2.default)(".album_pic-1").css("z-index", "0");
+        flag = 0;
+      }
+    });
+  });
+}
 
 /***/ })
 

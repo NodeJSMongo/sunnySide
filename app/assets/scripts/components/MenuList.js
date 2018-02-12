@@ -6,14 +6,12 @@ class MenuList extends Component{
   renderList(){
     return this.props.Items.map((Item)=>{
       return(
-        <div>
-          <li class="menuList"
+          <li className="menuList"
             key={Item.title}
             onClick={()=>this.props.selectItem(Item)}
           >
            {Item.title}
           </li>
-        </div>
       );
     });
   }

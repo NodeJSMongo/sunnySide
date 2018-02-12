@@ -1,0 +1,48 @@
+.album{
+  position: relative;
+  &_pic-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &_pic-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+  &_pic-3{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &_pic-4{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.next{
+  position: absolute;
+  top:35%;
+  right: 0;
+  z-index: 1;
+  color: rgba($deepBlue, .9);
+  font-size: 3rem;
+  transform: scaleX(1.5) scaleY(2.5);
+  transform-origin: 100% 0;
+  cursor: pointer;
+}
+
+.prev{
+  position: absolute;
+  top:35%;
+  left:1.5%;
+  z-index: 1;
+  color: rgba($deepBlue, .9);
+  font-size: 3rem;
+  transform: scaleX(1.5) scaleY(2.5);
+  transform-origin: 100% 0;
+  cursor: pointer;
+}
