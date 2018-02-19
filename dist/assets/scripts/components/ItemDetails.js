@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
+import Welcome from './welcome';
 
 class ItemDetails extends Component{
   render(){
     if(!this.props.Item){
-      return <div>welcome</div>
+      return <div className="details"><Welcome /></div>;
     }
     return(
-      <div>
-        <h3>{this.props.Item.title}</h3>
+      <div className="details">
+        <h3 className="details__section-title details__page-section">{this.props.Item.title}</h3>
+        <p>{this.props.Item.description}</p>
       </div>
     );
   }

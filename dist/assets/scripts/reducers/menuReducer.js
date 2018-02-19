@@ -5,19 +5,12 @@
 //step: 4, created a functional component and connected with the redux store
 export default function(){
   return [
-    {title: 'Git'},
-    {title: 'Webpack'},
-    {title: 'Gulp'},
-    {title: 'CSS'},
-    {title: 'HTML'},
-    {title: 'React'},
-    {title: 'Redux'},
-    {title: 'Nodejs'},
-    {title: 'MongoDB'},
-    {title: 'SVG'},
-    {title: 'React-Native'},
-    {title: 'Wordpress'},
-    {title: 'BootStarp'},
-    {title: 'jQuery'}
+    {title: 'Admission',
+    description: 'First step towards getting a study permit in Canada is Admission. You must have to apply in university or college you intent to study'},
+    {title: 'Visa',
+     description: 'Only admission in an university is not enough to study in Canada. One must have to apply for a TRV of Canada'},
+    {title: 'Sponsor', description: 'One of the most difficult and important thing is how you represent your financial situation for your entire stay in Canada'},
+    {title: 'Spouse', description: 'You can apply with or without your spouse. Always keep an eye towards your financial plan'},
+    {title: 'English', description: 'Your capability of understanding english and be able to show a proof of your english efficiency is very important towards getting an offer letter as well as visa'}
   ];
 }

@@ -23,5 +23,5 @@
 @import "base/_hideText";
 @import "react/_app";
 @import "react/_menuList";
-@import "react/_details";
 @import "modules/_album";
+@import "modules/triggers";

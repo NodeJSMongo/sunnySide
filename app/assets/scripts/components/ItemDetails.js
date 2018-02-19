@@ -5,11 +5,14 @@ import Welcome from './welcome';
 class ItemDetails extends Component{
   render(){
     if(!this.props.Item){
-      return <div className="details"><Welcome /></div>;
+      return <div />;
     }
     return(
-      <div className="details">
-        <h3 className="section-title page-section">{this.props.Item.title}</h3>
+      <div className="card__details" >
+        <h3 className="card__details__section-title">{this.props.Item.title}</h3>
+        <p>{this.props.Item.description}</p>
+        <p>Visit <a href="http://higherstudyincanada.com">www.higherstudyincanada.com</a> to get your preperation.</p>
+        <p>Download or read all sample documents <a href="http://higherstudyincanada.com/resources">here</a>.</p>
       </div>
     );
   }

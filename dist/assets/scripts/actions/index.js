@@ -1,4 +1,3 @@
-//action creators
 export function selectItem(Item){
   return{
     type: 'SELECTED_ITEM',

@@ -9,7 +9,8 @@
   }
 
 &--blue{
-  color:$mainBlue;
+  color:#fff;
+  font-weight: 600;
 }
 
 &--less-margin{

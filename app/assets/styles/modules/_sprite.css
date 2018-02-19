@@ -2,55 +2,55 @@
 instead eidt template gulp/tempalte/sprite*/
 
     .icon{
-        background-image: url('../../assets/images/sprites/sprite-a3fb8745.svg');
+        background-image: url('../../assets/images/sprites/sprite-3b57356c.svg');
     }
     .no-svg .icon{
-        background-image: url('../../assets/images/sprites/sprite-a3fb8745.png');
+        background-image: url('../../assets/images/sprites/sprite-3b57356c.png');
     }
 .icon--clear-view-escapes{
   width:144.4px;
   height:61.53px;
-  background-position:71.1860637509266% 46.750611947868656%
+  background-position:84.86964206805125% 57.558665562977644%
 }
 .icon--comment{
   width:66px;
   height:66px;
-  background-position:62.15533980582524% 60.91982182628062%
+  background-position:0 99.82912621359223%
 }
 .icon--facebook{
   width:23.23px;
   height:44.01px;
-  background-position:98.11280778485705% 45.01157137094206%
+  background-position:77.34458058106907% 83.82278999608931%
 }
 .icon--fire{
   width:58px;
   height:66px;
-  background-position:82.44728434504792% 60.91982182628062%
+  background-position:84.60111317254174% 74.58640776699029%
 }
 .icon--globe{
   width:66px;
   height:66px;
-  background-position:72.83495145631068% 60.91982182628062%
+  background-position:12.429378531073446% 99.82912621359223%
 }
 .icon--instagram{
   width:44.01px;
   height:44.01px;
-  background-position:60.01968780762199% 72.0885793753583%
+  background-position:84.45179840503445% 83.82278999608931%
 }
 .icon--mail{
   width:66px;
   height:50px;
-  background-position:85.5210355987055% 45.59139784946237%
+  background-position:99.53295668549906% 56.30885122410546%
 }
 .icon--mongodb{
   width:130px;
   height:130px;
-  background-position:23.465703971119133% 99.77142857142857%
+  background-position:0 85.17073170731707%
 }
 .icon--nodejs{
   width:130px;
   height:130px;
-  background-position:46.931407942238266% 99.77142857142857%
+  background-position:27.8372591006424% 85.17073170731707%
 }
 .icon--post{
   width:384.12px;
@@ -60,35 +60,40 @@ instead eidt template gulp/tempalte/sprite*/
 .icon--rain{
   width:66px;
   height:66px;
-  background-position:94.1747572815534% 85.55011135857461%
+  background-position:73.44632768361582% 74.58640776699029%
 }
 .icon--react{
   width:130px;
   height:130px;
-  background-position:70.3971119133574% 99.77142857142857%
+  background-position:55.6745182012848% 85.17073170731707%
+}
+.icon--spectra{
+  width:212px;
+  height:299px;
+  background-position:99.77142857142857% 0
 }
 .icon--star{
   width:66px;
   height:66px;
-  background-position:92.89967637540452% 60.91982182628062%
+  background-position:36.534839924670436% 99.82912621359223%
 }
 .icon--twitter{
   width:53.78px;
   height:44.06px;
-  background-position:94.3353114785313% 45.01635027816707%
+  background-position:71.7941165641913% 83.83059559727343%
 }
 .icon--wifi{
   width:62px;
   height:66px;
-  background-position:83.60128617363344% 85.55011135857461%
+  background-position:24.672897196261683% 99.82912621359223%
 }
 .icon--wordpress{
-  width:130px;
-  height:130px;
-  background-position:0 99.77142857142857%
+  width:66px;
+  height:66px;
+  background-position:96.7984934086629% 74.58640776699029%
 }
 .icon--youtube{
   width:36.75px;
   height:44px;
-  background-position:98.89841637697953% 58.07430997876857%
+  background-position:91.21285140562249% 83.82122905027933%
 }

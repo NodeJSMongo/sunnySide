@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import MenuList from './MenuList';
 import ItemDetails from'./ItemDetails';
+import Welcome from './welcome';
 
 export default class App extends Component{
   render(){
     return(
-      <div className="gutters--vertical_gutter card">
-        <div className="row__medium-3  row__b-margin-until-medium">
+      <div className="card">
+        <div>
+          <Welcome />
+        </div>
+        <div className="card__menuList">
             <MenuList />
         </div>
-        <div className="row__medium-9">
+        <div className="card__details">
           <ItemDetails />
         </div>
       </div>

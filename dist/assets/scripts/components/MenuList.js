@@ -2,24 +2,31 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {selectItem} from '../actions/index';
 import {bindActionCreators} from 'redux';
+import Dropdown, {DropdownTrigger, DropdownContent} from 'react-simple-dropdown';
 
 class MenuList extends Component{
   renderList(){
     return this.props.Items.map((Item)=>{
       return(
-        <li
-          key="{item.title}"
-          onClick={()=>this.props.selectItem(Item)}>
-          {item.title}
-        </li>
+          <li className="dropdown__menuList"
+            key={Item.title}
+            onClick={()=>this.props.selectItem(Item)}
+          >
+          {Item.title}
+          </li>
       );
     });
   }
   render(){
     return(
-      <ul>
-        {this.renderList()} //helper function
-      </ul>
+      <Dropdown className="dropdown">
+        <DropdownTrigger className="dropdown__trigger">20-Rules </DropdownTrigger>
+        <DropdownContent>
+          <ul>
+            {this.renderList()}
+          </ul>
+        </DropdownContent>
+      </Dropdown>
     );
   }
 }

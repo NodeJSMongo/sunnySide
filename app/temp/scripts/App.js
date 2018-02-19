@@ -60,12 +60,12 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 31);
+/******/ 	return __webpack_require__(__webpack_require__.s = 33);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 14:
+/***/ 15:
 /***/ (function(module, exports) {
 
 /*!
@@ -11090,17 +11090,17 @@ return jQuery;
 
 /***/ }),
 
-/***/ 31:
+/***/ 33:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _MobileMenu = __webpack_require__(32);
+var _MobileMenu = __webpack_require__(34);
 
 var _MobileMenu2 = _interopRequireDefault(_MobileMenu);
 
-var _RevealOnScroll = __webpack_require__(33);
+var _RevealOnScroll = __webpack_require__(35);
 
 var _RevealOnScroll2 = _interopRequireDefault(_RevealOnScroll);
 
@@ -11108,19 +11108,19 @@ var _jquery = __webpack_require__(2);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
-var _StickyHeader = __webpack_require__(34);
+var _StickyHeader = __webpack_require__(36);
 
 var _StickyHeader2 = _interopRequireDefault(_StickyHeader);
 
-var _Modal = __webpack_require__(36);
+var _Modal = __webpack_require__(38);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
-var _ShowMore = __webpack_require__(37);
+var _ShowMore = __webpack_require__(39);
 
 var _ShowMore2 = _interopRequireDefault(_ShowMore);
 
-var _Slider = __webpack_require__(38);
+var _Slider = __webpack_require__(40);
 
 var _Slider2 = _interopRequireDefault(_Slider);
 
@@ -11137,7 +11137,7 @@ var showMore = new _ShowMore2.default();
 
 /***/ }),
 
-/***/ 32:
+/***/ 34:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11188,7 +11188,7 @@ exports.default = MobileMenu;
 
 /***/ }),
 
-/***/ 33:
+/***/ 35:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11204,7 +11204,7 @@ var _jquery = __webpack_require__(2);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
-var _noframework = __webpack_require__(14);
+var _noframework = __webpack_require__(15);
 
 var _noframework2 = _interopRequireDefault(_noframework);
 
@@ -11251,7 +11251,7 @@ exports.default = RevealOnScroll;
 
 /***/ }),
 
-/***/ 34:
+/***/ 36:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11267,11 +11267,11 @@ var _jquery = __webpack_require__(2);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
-var _noframework = __webpack_require__(14);
+var _noframework = __webpack_require__(15);
 
 var _noframework2 = _interopRequireDefault(_noframework);
 
-var _jquerySmoothScroll = __webpack_require__(35);
+var _jquerySmoothScroll = __webpack_require__(37);
 
 var _jquerySmoothScroll2 = _interopRequireDefault(_jquerySmoothScroll);
 
@@ -11285,9 +11285,9 @@ var StickyHeader = function () {
 
     this.lazyImages = (0, _jquery2.default)(".lazyload");
     this.siteHeader = (0, _jquery2.default)(".site-header");
-    this.headerTriggerElement = (0, _jquery2.default)(".large-hero__title");
+    this.headerTriggerElement = (0, _jquery2.default)(".btn--large");
     this.createHeaderWaypoint();
-    this.pageSections = (0, _jquery2.default)(".page-section");
+    this.pageSections = (0, _jquery2.default)(".triggers");
     this.headerLinks = (0, _jquery2.default)(".primary-nav a");
     this.createPageSectionWaypoints();
     this.addSmoothScrolling();
@@ -11347,7 +11347,7 @@ var StickyHeader = function () {
               (0, _jquery2.default)(matchingHeaderLink).addClass("is-current-link");
             }
           },
-          offset: "-40%"
+          offset: "-42%"
         });
       });
     }
@@ -11360,7 +11360,7 @@ exports.default = StickyHeader;
 
 /***/ }),
 
-/***/ 35:
+/***/ 37:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -11728,7 +11728,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 /***/ }),
 
-/***/ 36:
+/***/ 38:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11796,7 +11796,7 @@ exports.default = Modal;
 
 /***/ }),
 
-/***/ 37:
+/***/ 39:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11859,7 +11859,7 @@ exports.default = ShowMore;
 
 /***/ }),
 
-/***/ 38:
+/***/ 40:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

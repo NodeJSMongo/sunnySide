@@ -5,9 +5,9 @@ class StickyHeader {
   constructor() {
     this.lazyImages = $(".lazyload");
     this.siteHeader = $(".site-header");
-    this.headerTriggerElement = $(".large-hero__title");
+    this.headerTriggerElement = $(".btn--large");
     this.createHeaderWaypoint();
-    this.pageSections = $(".page-section");
+    this.pageSections = $(".triggers");
     this.headerLinks = $(".primary-nav a");
     this.createPageSectionWaypoints();
     this.addSmoothScrolling();
@@ -63,7 +63,7 @@ class StickyHeader {
             $(matchingHeaderLink).addClass("is-current-link");
           }
         },
-        offset: "-40%"
+        offset: "-42%"
       });
     });
   }
