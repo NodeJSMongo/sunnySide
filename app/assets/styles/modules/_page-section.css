@@ -12,7 +12,6 @@
   }
   &__testimonials{
     padding:.2rem 0;
-    background-color: red;
     @mixin atMedium{
       padding: .5rem 1rem;
     }

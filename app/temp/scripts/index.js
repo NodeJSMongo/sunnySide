@@ -21880,7 +21880,37 @@ var ItemDetails = function (_Component) {
     key: 'render',
     value: function render() {
       if (!this.props.Item) {
-        return _react2.default.createElement('div', null);
+        return _react2.default.createElement(
+          'div',
+          { className: 'card__details' },
+          _react2.default.createElement(
+            'p',
+            null,
+            'Click tabs to reveal more.'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Visit ',
+            _react2.default.createElement(
+              'a',
+              { href: 'http://higherstudyincanada.com' },
+              'www.higherstudyincanada.com'
+            ),
+            ' to get your preperation.'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Download or read all sample documents ',
+            _react2.default.createElement(
+              'a',
+              { href: 'http://higherstudyincanada.com/resources' },
+              'here'
+            ),
+            '.'
+          )
+        );
       }
       return _react2.default.createElement(
         'div',

@@ -6,11 +6,13 @@
   @mixin atSmall{
     font-size: 3.75rem;
     margin-top: 10px;
+    padding: 3rem 0;
   }
 
 &--blue{
   color:#fff;
   font-weight: 600;
+  background-color: red;
 }
 
 &--less-margin{

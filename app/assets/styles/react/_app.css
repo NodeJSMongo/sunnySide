@@ -9,6 +9,7 @@
     padding-bottom: 1px;
     line-height: 2;
     letter-spacing: 1.5px;
+    text-align: center;
 
     @mixin atSmall{
       max-width: 80%;
