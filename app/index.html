@@ -4,8 +4,9 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" href="./spectral.png">
-  <title>Study Permit Experts</title>
+  <title>Spectra Student Counselling</title>
   <meta name="keywords" content="HTML, CSS, javascript, reactjs, ReactNative, Jquery, webpack, gulp, modern work flow, BEM, npm, nodejs, mongodb, git, wordpress">
   <meta name="description" content="React. simply react. modern web developers work flow. react native. react native developer.">
   <title>Simplify React Apps</title>
@@ -28,13 +29,15 @@
         </div>
         <div class="site-header__menu-content">
           <div class="site-header__btn-container">
-              <a href="#" class="btn open-modal">Get in Touch</a>
+              <a href="#" class="btn btn--orange open-modal">Get in Touch</a>
           </div>
         <nav class="primary-nav  primary-nav--pull-right">
           <ul>
-            <li><a href="#our-beginning" id="our-beginning-link">Home</a></li>
-            <li><a href="#student-service" id="student-service-link">Student Service</a></li>
-            <li><a href="#web-service" id="web-service-link">Web Service</a></li>
+            <li><a href="#our-beginning" id="our-beginning-link"><i class="fa fa-home fa-lg"></i></a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="#student-service" id="student-service-link">Our Services</a></li>
+            <li><a href="#explore-canada" id="explore-canada-link">Explore Canada</a></li>
+            <li><a href="#contact-us" id="contact-us-link"><i class="fa fa-phone fa-lg"></i></i></a></li>
           </ul>
         </nav>
         </div>
@@ -68,15 +71,15 @@
 
     <div class="wrapper wrapper--no-padding-until-large">
 
-      <h2 class="section-title section-title--blue section-title--less-margin"> <span class="icon icon--star section-title__icon"></span>Student Service</h2>
+      <h2 class="section-title section-title--blue section-title--less-margin"> <i class="fa fa-graduation-cap fa-lg"></i> Student Counselling</h2>
       <div class="row row--gutters row--gutters-small row--equal-height-at-large row--t-padding generic-content-container">
           <div class="row__large-4">
             <div class="testimonial">
               <div class="testimonial__photo">
-                <img src="assets/images/step.png">
+              <i class="fa fa-gift fa-5x"></i>
               </div>
               <h3 class="testimonial__title">Assesment</h3>
-              <h4 class="testimonial__subtitle">Get a <strong>FREE assesment</strong> Today</h4>
+              <h4 class="testimonial__subtitle">Get a <strong> FREE assesment </strong>Today</h4>
               <p>Before you start spending time and money towards higher study in Canada, you need to assess your profile.
                 Few most important things to check when you assess your profile are,
                 <ul>
@@ -94,7 +97,7 @@
           <div class="row__large-4">
             <div class="testimonial">
               <div class="testimonial__photo">
-                <img src="assets/images/step.png">
+              <i class="fa fa-check-square-o fa-5x"></i>
               </div>
               <h3 class="testimonial__title">Admission</h3>
               <h4 class="testimonial__subtitle">Get started <strong>EARLY</strong></h4>
@@ -114,7 +117,7 @@
           <div class="row__large-4">
             <div class="testimonial testimonial--last">
               <div class="testimonial__photo">
-                <img src="assets/images/step.png">
+                <i class="fa fa-folder-open fa-5x"></i>
               </div>
               <h3 class="testimonial__title">Study Permit & Visa</h3>
               <h4 class="testimonial__subtitle">Submit a <strong>COMPLETE</strong> Application.</h4>
@@ -136,74 +139,125 @@
     </div>
   </div>
 
-  <div id="web-service" class="page-section page-section--blue triggers lazyload" data-matching-link="#web-service-link">
+  <div class="page-section page-section--blue lazyload">
     <div class="wrapper">
-      <h2 class="section-title"> <span class="icon icon--star section-title__icon"></span>Web & Network</h2>
-      <div class="row row--gutters-large generic-content-container">
+      <h2 class="section-title section-title--gallery"> <span class="icon icon--star section-title__icon"></span>Other Services</h2>
+      <div class="row row--gutters-large  generic-content-container">
         <div class="row__medium-6">
-          <div class="feature-item">
-            <span class="icon icon--globe feature-item__icon"></span>
-            <h3 class="feature-item__title">Tour De'Globe</h3>
-            <p>We can make your trip easier than ever. Get connected with thousands of travellers everyday. We offer package tours in different asian countries. Get more details <a href="#!">here</a></p>
+          <div class="feature-item feature-item__odd">
+            <span class="feature-item__icon"><i class="fa fa-plane fa-3x"></i> </span>
+            <h3 class="feature-item__title">Travellers Guide</h3>
+            <p>We can make your trip easier than ever. Get connected with thousands of travellers everyday. We offer package tours in different asian countries like china, Thailand, India, Nepal and few more. Contact us for details.</p>
           </div>
-          <div class="feature-item">
-            <span class="icon icon--wordpress feature-item__icon"></span>
-            <h3 class="feature-item__title">Build a Website</h3>
-            <p>Planning to start a business or want to have a online business identity? Build a website with us. Get the best rates! Send your own logo and design or let us design it for you. More details <a href="#!">here</a></p>
+          <div class="feature-item feature-item__even">
+            <span class=" feature-item__icon"><i class="fa fa-wifi fa-3x"></i></span>
+            <h3 class="feature-item__title">Build an Online Portfolio</h3>
+            <p>Planning to have a unique personal online identity or want to convert your portfoilo into business identity? Build a professional online portfolio with us. Present your work just sharing a link. Send your own logo and design or let us do it for you. Contact us for counselling.</p>
           </div>
         </div>
 
         <div class="row__medium-6">
-          <div class="feature-item">
-            <img src="assets/images/gster.png" class="feature-item__icon">
-            <h3 class="feature-item__title">Save with Gangster</h3>
-            <p>Best place to buy your product. %Discount%, Online , In-store, Home delivery , In person pick up. Use any facility. We are price GANGSTERS.<a href="#!"> Visit Gangster</a>. Buy Now.</p>
+          <div class="feature-item feature-item__even">
+            <span class=" feature-item__icon"><i class="fa fa-image fa-3x"></i></span>
+            <h3 class="feature-item__title">Get Discount on Photo</h3>
+            <p>You can save money with our reference tokens from many photography labs in Dhaka. Even you can get it for free, if you grab whole package. </p>
           </div>
-          <div class="feature-item">
-            <span class="icon icon--wifi feature-item__icon"></span>
-            <h3 class="feature-item__title">Digital Marketing</h3>
-            <p>Want to keep track with your valuable clients regularly? Want to let them know about your new product through email promotions? or want to send them a text ? We can help your business to grow more than ever. Get help with <a href="#!">online marketing</a> today.</p>
+          <div class="feature-item feature-item__odd">
+            <span class="feature-item__icon"><i class="fa fa-fast-forward fa-3x"></i></span>
+            <h3 class="feature-item__title">Get Online IELTS Lessons</h3>
+            <p>Get prepared for IELTS within 2 months through a virtual coaching center for free. Stay home, save time, save money and learn more. Get quizzes, practice exams and many more every week (Charge applicable). Contact us for more details. </p>
           </div>
         </div>
         </div>
       </div>
     </div>
 
-  <div class="page-section" >
+  <div class="page-section" id="explore-canada"  class="triggers lazyload" data-matching-link="#explore-canada-link">
       <div class="wrapper">
-        <h2 class="headline headline--centered headline--light headline--b-margin-small">If beginning was<strong> harder,</strong></h2>
-        <div class="wrapper wrapper--medium wrapper--b-margin">
-          <div class="album">
-            <div class="prev">
-              <
-            </div>
-            <div class="album_pic_base">
-              <img class="lazyload" sizes ="(min-width:970px) 976px, 100vw" data-srcset="assets/images/seneca-low-res.jpg 565w, assets/images/seneca.jpg 976w, assets/images/seneca-hi-dpi.jpg 1952w" alt="Couple walking down a street.">
-            </div>
-            <div class="album_pic-1">
-              <img class="lazyload" sizes ="(min-width:970px) 976px, 100vw" data-srcset="assets/images/seneca-low-res.jpg 565w, assets/images/seneca.jpg 976w, assets/images/seneca-hi-dpi.jpg 1952w" alt="Couple walking down a street.">
-            </div>
-            <div class="album_pic-2">
-              <img class="lazyload" sizes ="(min-width:970px) 976px, 100vw" data-srcset="assets/images/algoma_university-low-res.jpg 565w, assets/images/algoma_university.jpg 976w, assets/images/algoma_university-hi-dpi.jpg 1952w" alt="Couple walking down a street." >
-            </div>
-            <div class="album_pic-3">
-              <img class="lazyload" sizes ="(min-width:970px) 976px, 100vw" data-srcset="assets/images/Centennial_College-low-res.jpg 565w, assets/images/Centennial_College.jpg 976w, assets/images/Centennial_College-hi-dpi.jpg 1952w" alt="Couple walking down a street.">
-            </div>
-            <div class="album_pic-4">
-              <img class="lazyload" sizes ="(min-width:970px) 976px, 100vw" data-srcset="assets/images/windsor-low-res.jpg 565w, assets/images/windsor.jpg 976w, assets/images/windsor-hi-dpi.jpg 1952w" alt="Couple walking down a street.">
-            </div>
-            <div class="next">
-              >
-            </div>
+        <h2 class="section-title section-title--gallery"> <span class="icon icon--star section-title__icon"></span>Explore Canada</h2>
+        <div class="gallery">
+          <div class="gallery__paragraphs">
+            <p class="gallery__paragraphs-first">
+              Canada is 2nd largest Country in the world by area. This Country is full of natural beauties.
+              World's longest waterfall ('Niagra') , largest fresh-water lake ('Lake Superior') , 2nd deepest harbour ('Halifax harbour')
+              and longest road inside a metropolitan ('The yonge') and many more great Attractions made Canada a unique Country to explore.
+            </p>
+            <p>
+              Province-wise Canada is more attractive. Every province is differently beautiful. From the east-coast (Atlantic provinces) Halifax is the largest city, is also known for Titanic.
+              You can get fresh air anywhere. Visit Peggy's Cove to see beauty of Atlantic ocean or Sydney (Nova Scotia) to see Whale in real.
+            </p>
+            <p>
+              If you want to learn french, 'Quebec or New Brunswick' might be a good option for you.<br/>
+              No place in the world except 'New york' has so much cultural diversity in population. Yes, 'Toronto' is the heart of Ontario is one of the best peaceful mega city in the world.
+            </p>
+            <p>
+              Have you heard about prairies ? Alberta, Saskatchewan, Manitoba are called the Prairie Provinces. These provinces are not known only for
+              wheat, petroleum or natural gas but known for many political revolutions like 'Women Political Rights' revolution.<br/>
+              West coast of Canada is the Queen of Pacific ocean. Vancouver, capital of British Columbia is the 3rd best place in world for living.
+            </p>
+            <p>Three Territores- Northwest Territory, Yukon, Nunavut with Smallest Province PEI ('Prince Edward Island') and Nine other great provinces made Canada a very unique country.</p>
+          </div>
+          <div class="gallery__photo lazyload">
+              <a href="assets/images/snow_large.jpg" data-lightbox="mygallery" data-title="Snow everywhere!"><img src="assets/images/snow_tile.jpg"></a>
+              <a href="assets/images/atlantic_large.jpg" data-lightbox="mygallery" data-title="Point Pleasant Perk, Halifax, NS."><img src="assets/images/atlantic_tile.jpg"></a>
+              <a href="assets/images/beauty_large.jpg" data-lightbox="mygallery" data-title="Somewhere in Peggy's cove"><img src="assets/images/beauty_tile.jpg"></a>
+              <a href="assets/images/dundus_large.jpg" data-lightbox="mygallery" data-title="Dundus and yonge square!"><img src="assets/images/dundus_tile.jpg"></a>
+              <a href="assets/images/fall_large.jpg" data-lightbox="mygallery" data-title="Canadian fall. Canadian color!"><img src="assets/images/fall_tile.jpg"></a>
+              <a href="assets/images/govt_large.jpg" data-lightbox="mygallery" data-title="Diversity in Parliament of Canada!"><img src="assets/images/govt_tile.jpg"></a>
+              <a href="assets/images/pacific_large.jpg" data-lightbox="mygallery" data-title="West coast of British Columbia."><img src="assets/images/pacific_tile.jpg"></a>
+              <a href="assets/images/york_large.jpg" data-lightbox="mygallery" data-title="York university, Toronto, ON."><img src="assets/images/york_tile.jpg"></a>
+              <a href="assets/images/winter_large.jpg" data-lightbox="mygallery" data-title="Street Car in king and Buthurst. Snow storm!"><img src="assets/images/winter_tile.jpg"></a>
+              <a href="assets/images/algoma_large.jpg" data-lightbox="mygallery" data-title="Algoma University, Saute Marie, ON!"><img src="assets/images/algoma_tile.jpg"></a>
+          </div>
+          <div class="gallery__paragraphs">
+            <p class="gallery__paragraphs-last">Its not about just studying and earning a degree in Canada. It also about learning from nature, people and history. <br/>Best of Luck!</p>
           </div>
         </div>
       </div>
   </div>
 
-  <footer class="site-footer">
-    <div class="wrapper">
-        <p><span class="site-footer__text">Copyright &copy; 2018 SunnySide Corp. All rights reserved.</span>
-           <a href="#" class="btn btn--orange open-modal">Get in Touch</a></p>
+  <footer class="site-footer" id="contact-us"  class="large-hero triggers" data-matching-link="#contact-us-link">
+    <div>
+      <div class="site-footer__contact">
+        <div class="address row">
+          <div class="row__large-4">
+            <h3 class="address__headline">Dhaka</h3>
+            <address class="address__location">
+              Spectra Student Counselling<br/>
+              67 Nikunja, Dhaka North<br/>
+              Bangladesh, 1900<br/>
+              Phone: +8801718719999<br/>
+              Email: contact@spectra.com
+            </address>
+          </div>
+          <div class="row__large-4">
+            <h3 class="address__headline">Toronto</h3>
+            <address class="address__location">
+              607 Warden Ave.<br/>
+              Scarborough, Toronto, ON<br/>
+              Canada, M1L3Z4<br/>
+              Phone: +1 (647) 878-1553<br/>
+              Email: contact@spectra.com
+            </address>
+          </div>
+          <div class="row__large-4">
+            <h3 class="address__headline">Regular Hours</h3>
+            <div class="address__location address__location-time">
+              Mon : 9:00am - 5:00pm <br/>
+              Tue : 9:00am - 5:00pm <br/>
+              Wed : 9:00am - 5:00pm <br/>
+              Thu : 9:00am - 6:00pm <br/>
+              Fri : Close <br/>
+              Sat : Close <br/>
+              Sun : 9:00am - 5:00pm
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-footer__copyright">
+          <p><a href="#" class="btn btn--orange open-modal">Get in Touch</a></p>
+          <p class="site-footer__text">Copyright &copy; 2018 Spectra Student Counselling. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 

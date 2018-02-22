@@ -11120,10 +11120,6 @@ var _ShowMore = __webpack_require__(39);
 
 var _ShowMore2 = _interopRequireDefault(_ShowMore);
 
-var _Slider = __webpack_require__(40);
-
-var _Slider2 = _interopRequireDefault(_Slider);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var mobileMenu = new _MobileMenu2.default();
@@ -11133,7 +11129,6 @@ new _RevealOnScroll2.default((0, _jquery2.default)(".testimonial"), "60%");
 var stickyHeader = new _StickyHeader2.default();
 var modal = new _Modal2.default();
 var showMore = new _ShowMore2.default();
-(0, _Slider2.default)();
 
 /***/ }),
 
@@ -11856,85 +11851,6 @@ var ShowMore = function () {
 }();
 
 exports.default = ShowMore;
-
-/***/ }),
-
-/***/ 40:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = Slider;
-
-var _jquery = __webpack_require__(2);
-
-var _jquery2 = _interopRequireDefault(_jquery);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Slider() {
-  (0, _jquery2.default)(document).ready(function () {
-    var flag = 1;
-    (0, _jquery2.default)(".next").click(function () {
-      if (flag == 0) {
-        (0, _jquery2.default)(".album_pic-1").css("z-index", "1");
-        (0, _jquery2.default)(".album_pic-2").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-3").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-4").css("z-index", "0");
-        flag = 1;
-      } else if (flag == 1) {
-        (0, _jquery2.default)(".album_pic-2").css("z-index", "1");
-        (0, _jquery2.default)(".album_pic-3").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-1").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-4").css("z-index", "0");
-        flag = 2;
-      } else if (flag == 2) {
-        (0, _jquery2.default)(".album_pic-3").css("z-index", "1");
-        (0, _jquery2.default)(".album_pic-1").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-2").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-4").css("z-index", "0");
-        flag = 3;
-      } else if (flag == 3) {
-        (0, _jquery2.default)(".album_pic-4").css("z-index", "1");
-        (0, _jquery2.default)(".album_pic-1").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-2").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-3").css("z-index", "0");
-        flag = 0;
-      }
-    });
-    (0, _jquery2.default)(".prev").click(function () {
-      if (flag == 0) {
-        (0, _jquery2.default)(".album_pic-4").css("z-index", "1");
-        (0, _jquery2.default)(".album_pic-2").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-3").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-1").css("z-index", "0");
-        flag = 3;
-      } else if (flag == 1) {
-        (0, _jquery2.default)(".album_pic-2").css("z-index", "1");
-        (0, _jquery2.default)(".album_pic-4").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-3").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-1").css("z-index", "0");
-        flag = 2;
-      } else if (flag == 2) {
-        (0, _jquery2.default)(".album_pic-1").css("z-index", "1");
-        (0, _jquery2.default)(".album_pic-2").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-3").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-4").css("z-index", "0");
-        flag = 3;
-      } else if (flag == 3) {
-        (0, _jquery2.default)(".album_pic-3").css("z-index", "1");
-        (0, _jquery2.default)(".album_pic-2").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-4").css("z-index", "0");
-        (0, _jquery2.default)(".album_pic-1").css("z-index", "0");
-        flag = 0;
-      }
-    });
-  });
-}
 
 /***/ })
 

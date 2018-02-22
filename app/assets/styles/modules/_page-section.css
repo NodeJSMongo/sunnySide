@@ -31,8 +31,7 @@
 }
 
   &--blue{
-    background-color: $mainBlue;
-    color:#FFF;
+    color:#ff0000;
   }
   &--testimonials{
     max-width: 100%;

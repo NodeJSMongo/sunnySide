@@ -1,18 +1,31 @@
 .feature-item{
   position: relative;
-  padding-bottom: 2.5rem;
+  padding: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
 
   @mixin atSmall{
-    padding-left: 94px;
+    margin-bottom: 2rem;
+  }
+
+  &__odd{
+    background-color: #fff ;
+    color: #e60000;
+  }
+  &__even{
+    background-color: #e60000;
+    color: #fff;
+    border-radius: 0 30px 0 0;
   }
 
   &__icon{
     display: block;
-    margin: 0 auto;
+    position: absolute;
+    right: 40%;
+    top: 5%;
     @mixin atSmall{
-      position: absolute;
-      left: 0;
-
+      right: 1rem;
+      top: 1rem;
     }
   }
   &__title{
@@ -20,11 +33,14 @@
     font-weight: 300;
     margin-bottom: .8rem;
     margin-top: .7em;
-    text-align:center;
+    text-align:left;
+    padding-top: 3rem;
     @mixin atSmall{
       font-size: 1.875rem;
+      font-stretch: extra-condensed;
+      font-weight: 600;
       margin-top: 1em;
-      text-align: left;
+      padding-top: 0;
     }
   }
 }

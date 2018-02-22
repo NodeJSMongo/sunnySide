@@ -1,0 +1,44 @@
+.gallery{
+    &__photo{
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      position: relative;
+
+      @mixin atLarge{
+        width: 50%;
+      }
+    }
+
+    &__photo img{
+      width: 90px;
+      height: 72px;
+      opacity: .5;
+      transform: scale(.9);
+      &:hover{
+        opacity: 1;
+        transform: scale(1);
+      }
+
+      @mixin atLarge{
+        width: auto;
+        height: auto;
+      }
+    }
+
+    &__paragraphs{
+      max-width: 80%;
+      margin: 0 auto;
+      line-height: 1.5;
+      letter-spacing: 1.3px;
+      color: $mainBlue;
+      &-first::first-letter{
+        font-size:1.5rem;
+      }
+
+      &-last{
+        color: $mainBlue;
+        text-align: center;
+      }
+    }
+}

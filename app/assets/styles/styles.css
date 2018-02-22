@@ -20,8 +20,10 @@
 @import "modules/_reveal-item";
 @import "modules/_modal";
 @import "modules/_social-icons";
+@import "../../../node_modules/lightbox2/dist/css/lightbox.min";
 @import "base/_hideText";
 @import "react/_app";
 @import "react/_menuList";
-@import "modules/_album";
+@import "modules/_gallery";
 @import "modules/triggers";
+@import "modules/_address";
