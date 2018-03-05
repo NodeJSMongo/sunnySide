@@ -5,6 +5,7 @@ width: 100%;
 z-index: 5;
 transition: background-color .3s ease-out;
 
+
 &--is-expanded{
   background-color: rgba(#000, .85);
 }
@@ -34,16 +35,16 @@ transition: background-color .3s ease-out;
     top:0;
     left:50%;
     transform-origin: 50% 0%;
-    transform: translateX(-50%) scale(1);
+    transform: translateX(-50%) scale(1.5);
     transition: transform .8s ease-out;
 
     @mixin atMedium{
       left:auto;
-      transform: translateX(0) scale(2.1);
+      transform: translateX(0) scale(2.5);
       top:0;
-      left:10%;
+      left:9%;
       .site-header--dark &{
-        transform: scale(1);
+        transform: scale(1.5);
       }
 
     }

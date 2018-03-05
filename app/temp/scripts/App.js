@@ -11342,7 +11342,7 @@ var StickyHeader = function () {
               (0, _jquery2.default)(matchingHeaderLink).addClass("is-current-link");
             }
           },
-          offset: "-42%"
+          offset: "-40%"
         });
       });
     }

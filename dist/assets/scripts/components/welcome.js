@@ -3,16 +3,11 @@ import React, { Component } from 'react';
 class Welcome extends Component{
   render(){
     return (
-      <div>
-        <h3 className="details__section-title details__page-section">Welcome</h3>
-        <p className="text">
-          This section is build in react and redux. This might be an
-          opportunity for you to see an example, how react and redux can
-          be a part of an existing app.
-        </p>
-        <p>
-          please, select any topic from left menu to see some must needed
-          function and command you need to know about the selected technology.
+      <div className="card__welcome">
+        <h3 className="card__welcome__section-title">Your chance of getting a Canadian study permit is 99%, if you have submitted a <strong>Complete Application</strong>.</h3>
+
+        <p className="card__welcome__description">
+          MAJOR FIVE towards making a successful application.
         </p>
       </div>
     );

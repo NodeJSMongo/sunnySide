@@ -20,7 +20,7 @@ class MenuList extends Component{
   render(){
     return(
       <Dropdown className="dropdown">
-        <DropdownTrigger className="dropdown__trigger">20-Rules </DropdownTrigger>
+        <DropdownTrigger className="dropdown__trigger">Major Five </DropdownTrigger>
         <DropdownContent>
           <ul>
             {this.renderList()}

@@ -63,7 +63,7 @@ class StickyHeader {
             $(matchingHeaderLink).addClass("is-current-link");
           }
         },
-        offset: "-42%"
+        offset: "-40%"
       });
     });
   }
