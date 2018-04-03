@@ -1925,8 +1925,16 @@ html.lb-disable-scrolling{overflow:hidden;position:fixed;height:100vh;width:100v
   }
 
 .about__page-wrapper{
-      padding: 5rem;
+      padding: 0 15rem;
     }
+
+.about__page-header{
+      text-align: center;
+    }
+
+.about__page p{
+    line-height: 1.5rem;
+  }
 
 .about-footer{
     color:#FFF;

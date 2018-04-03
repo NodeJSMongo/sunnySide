@@ -21894,7 +21894,7 @@ var ItemDetails = function (_Component) {
             'Visit ',
             _react2.default.createElement(
               'a',
-              { href: 'http://higherstudyincanada.com' },
+              { href: 'https://www.higherstudyincanada.com', target: '_blank' },
               'www.higherstudyincanada.com'
             ),
             ' to get your preperation.'
@@ -21905,7 +21905,7 @@ var ItemDetails = function (_Component) {
             'Download or read all sample documents ',
             _react2.default.createElement(
               'a',
-              { href: 'http://higherstudyincanada.com/resources' },
+              { href: 'https://www.higherstudyincanada.com/resources', target: '_blank' },
               'here'
             ),
             '.'
@@ -21931,7 +21931,7 @@ var ItemDetails = function (_Component) {
           'Visit ',
           _react2.default.createElement(
             'a',
-            { href: 'http://higherstudyincanada.com' },
+            { href: 'https://www.higherstudyincanada.com', target: '_blank' },
             'www.higherstudyincanada.com'
           ),
           ' to get your preperation.'
@@ -21942,7 +21942,7 @@ var ItemDetails = function (_Component) {
           'Download or read all sample documents ',
           _react2.default.createElement(
             'a',
-            { href: 'http://higherstudyincanada.com/resources' },
+            { href: 'https://www.higherstudyincanada.com/resources', target: '_blank' },
             'here'
           ),
           '.'

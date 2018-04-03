@@ -18,8 +18,16 @@
   &__page{
     height: 100vh;
     &-wrapper{
-      padding: 5rem;
+      padding: 0 15rem;
     }
+
+    &-header{
+      text-align: center;
+    }
+  }
+
+  &__page p{
+    line-height: 1.5rem;
   }
 
   &-footer{
