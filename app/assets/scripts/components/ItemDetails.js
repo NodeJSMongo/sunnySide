@@ -8,8 +8,8 @@ class ItemDetails extends Component{
       return (
         <div className="card__details">
           <p>Click tabs to reveal more.</p>
-          <p>Visit <a href="https://www.higherstudyincanada.com" target="_blank">www.higherstudyincanada.com</a> to get your preperation.</p>
-          <p>Download or read all sample documents <a href="https://www.higherstudyincanada.com/resources" target="_blank">here</a>.</p>
+          <p>Visit <a href="https://polaricss.com/higher-study-in-canada" target="_blank">www.higherstudyincanada.com</a> to get your preperation.</p>
+          <p>Download or read all sample documents <a href="https://polaricss.com/higher-study-in-canada/resources" target="_blank">here</a>.</p>
         </div>
       );
     }
@@ -17,8 +17,8 @@ class ItemDetails extends Component{
       <div className="card__details" >
         <h3 className="card__details__section-title">{this.props.Item.title}</h3>
         <p>{this.props.Item.description}</p>
-        <p>Visit <a href="https://www.higherstudyincanada.com" target="_blank">www.higherstudyincanada.com</a> to get your preperation.</p>
-        <p>Download or read all sample documents <a href="https://www.higherstudyincanada.com/resources" target="_blank">here</a>.</p>
+        <p>Visit <a href="https://polaricss.com/higher-study-in-canada/" target="_blank">www.higherstudyincanada.com</a> to get your preperation.</p>
+        <p>Download or read all sample documents <a href="https://polaricss.com/higher-study-in-canada/resources" target="_blank">here</a>.</p>
       </div>
     );
   }
