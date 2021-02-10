@@ -1,1 +1,1 @@
-# simply-react
+React project
